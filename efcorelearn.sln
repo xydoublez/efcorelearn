@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "基础学习", "基础学习", "{68A0E299-BE51-427F-A4AD-342A0115245D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectPooling", "ConnectPooling\ConnectPooling.csproj", "{7A199BF0-2BD3-4098-920C-68AADAFF305D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A199BF0-2BD3-4098-920C-68AADAFF305D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A199BF0-2BD3-4098-920C-68AADAFF305D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A199BF0-2BD3-4098-920C-68AADAFF305D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A199BF0-2BD3-4098-920C-68AADAFF305D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A199BF0-2BD3-4098-920C-68AADAFF305D} = {68A0E299-BE51-427F-A4AD-342A0115245D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C884C5DE-C6C1-49E5-8D33-59E35B36C850}
